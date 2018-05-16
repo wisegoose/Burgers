@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BurgerRoom</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="burgers">BURGERS</string>
+    <string name="snacks">SNACKS</string>
+    <string name="drinks">DRINKS</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="contacts">CONTACTS</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="tel_288_00_51">Tel.: 288‑00-51</string>
+    <string name="info_star">Our signature mega Burger with two juicy marble cutlets, oyster mushrooms, bacon, smoked homemade Suluguni, as well as cheddar cheese, seasoned with spicy mayonnaise and cranberry-rosemary sauce.</string>
+    <string name="buy">BUY</string>
+    <string name="todo">TODO</string>
+    <string name="weight_star">500</string>
+    <string name="price_star">390</string>
+    <string name="info_potatos">A double portion of fries with three sauces as a gift</string>
+    <string name="weight_potatos">500</string>
+    <string name="price_potatos">200</string>
+    <string name="info_red">Juicy cutlet of marbled beef, Suluguni cheese, eggplant, jalapeno pepper, seasoned with sweet-spicy tomato and spicy mayonnaise.</string>
+    <string name="weight_red">390</string>
+    <string name="price_red">290</string>
+    <string name="cart">cart</string>
+    <string name="btnCart">btnCart</string>
+    <string name="home">HOME</string>
+    <string name="tvSignIn">To log in to your account, enter your phone number and a bonus card number</string>
+
+
+</resources>

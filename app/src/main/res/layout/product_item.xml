@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/productLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/productName"
+        style="@style/title"
+        android:hint="productName"
+        android:background="#FF0000" />
+
+    <ImageView
+        android:id="@+id/productImg"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/productDescription"
+        style="@style/info"
+        android:hint="productDescription"
+        android:layout_margin="8dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/productWeight"
+            style="@style/weight"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000"
+            android:hint="weight"/>
+
+        <ImageView
+            android:id="@+id/icWeight"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/productWeight"
+            android:src="@drawable/ic_product_weight"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            style="@style/price"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/icWeight"
+            android:textColor="#000000"
+            android:hint="price"/>
+
+        <ImageView
+            android:id="@+id/icPrice"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/productPrice"
+            android:src="@drawable/ic_product_price"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#FF0000"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/buy"
+            android:textColor="#FFFFFF"
+            android:textSize="10pt"
+            tools:ignore="RelativeOverlap" />
+
+    </RelativeLayout>
+</LinearLayout>
